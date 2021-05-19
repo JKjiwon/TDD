@@ -1,18 +1,14 @@
-package hello.testspring.bank.dao;
+package hello.testspring.bank.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.mockito.Answers;
-import org.mockito.Mockito;
 
+import hello.testspring.bank.dao.AccountDao;
 import hello.testspring.bank.domain.Account;
 import hello.testspring.bank.exception.InsufficientBalanceException;
-import hello.testspring.bank.service.AccountService;
-import hello.testspring.bank.service.AccountServiceImpl;
 
 public class AccountServiceImplMockTest {
 
